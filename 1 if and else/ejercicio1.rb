@@ -1,5 +1,4 @@
-# Hacer que se cumpla la condición modificando la línea 4.
+# Hacer que se cumpla la condicion modificando la linea 4.
 
 a = 'saludo'
-puts 'La condición es verdadera.' if a == 'saludo'  
-
+puts 'La condicion es verdadera' if a == 'saludo'
