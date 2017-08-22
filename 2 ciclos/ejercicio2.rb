@@ -1,7 +1,7 @@
-# En el siguiente código reemplaza la instrucción 'while' por 'times'.
+# En el siguiente codigo reemplaza la instruccion 'while' por 'times'.
 
 i = 0
-while i < 10
-  puts "Iteración #{i}"
-  i = i + 1
+10.times do
+  i += 1
 end
+puts "Iteración #{i}"
