@@ -11,3 +11,20 @@
 </table>
 
 =end
+
+a = 1
+b = '        <td> 1 </td>'
+c = '        <td> 2 </td>'
+d = '        <td> 3 </td>'
+
+puts '<table>'
+puts '    <tbody>'
+puts '        <tr>'
+a.times do
+  puts b, c, d
+  
+end
+puts '        </tr>'
+puts '    </tbody>'
+puts '</table>'
+
